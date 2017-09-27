@@ -76,7 +76,7 @@ $("#user-search-plot").on("click", function() {
     } else {
         console.log(nameOfMoviePlot);
 
-        var queryURL = "http://www.omdbapi.com/?t=" + nameOfMoviePlot + "&y=&plot=short&apikey=40e9cece";
+        var queryURL = "https://www.omdbapi.com/?t=" + nameOfMoviePlot + "&y=&plot=short&apikey=40e9cece";
 
         // Creating an AJAX call for the specific movie button being clicked
         $.ajax({
